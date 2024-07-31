@@ -3,11 +3,12 @@ class Home:
         self.name = name
         self.lastname = lastname
 
-    def __respuesta__(self):
+    def respuesta(self):
         return f"{self.name} " + " " + f"{self.lastname}"
     
+    def favicon(self,xfavicon):
+        self.favi = xfavicon
+        return f"{self.favi}"
 
-
-
-    def __str__(self):
+    def str(self):
         return f"{self.name} " + " " + f"{self.lastname}"
