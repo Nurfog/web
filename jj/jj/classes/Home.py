@@ -11,4 +11,4 @@ class Home:
         return f"{self.favi}"
 
     def str(self):
-        return f"{self.name} " + " " + f"{self.lastname}"
+        return f'{self.name}'  + '' + f'{self.lastname}'
