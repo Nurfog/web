@@ -55,7 +55,7 @@ ROOT_URLCONF = 'jj.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'jj' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
