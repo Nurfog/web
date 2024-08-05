@@ -6,33 +6,59 @@
 </head>
 
 <style>
-    #barra {
+    body 
+    {
         margin: 0;
-        padding: 10;
-        list-style-type: none;
-        text-align: right;
-        background-color: #333;
-        color: white;
-        text-transform: uppercase;
-
-
-
+        padding: 0;
+        font-family: Arial, sans-serif;
     }
 
-    #barra li {
-        display: inline;
-        margin: 0 20px;
-    }
-    
+    header 
+        {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+    nav ul 
+        {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: #333;
+        }
+
+    nav li 
+        {
+            display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+            margin-right: 20px; /* Espacio entre los ítems del menú */
+        }
+
+    nav a 
+        {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+
+        }
+
+    nav a:hover 
+        {
+            text-decoration: underline;
+        }
+
 </style>
 
 
 <body>
-    <ul id="barra">
-        <li>Home</li>
-        <li>Blog</li>
-        <li>Contacto</li>
-    </ul>
+    <nav>
+        <ul>
+            <li> <a href="localhost:8000">Home</a></li>
+            <li><a href="https://norteamericano.cl">Blog</a></li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
 </body>
 
 </html>
