@@ -11,7 +11,7 @@ from django.shortcuts import render
 
 def index(request):
     x = Home("Juan Enrique", "Allende")       
-    return render(request, "index.html", {"nombre":str(x.name),"apellido":str(x.lastname)})
+    return render(request, "master.html", {"nombre":str(x.name),"apellido":str(x.lastname)})
 
 
 
