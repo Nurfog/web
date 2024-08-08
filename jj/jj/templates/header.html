@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title></title>
-    <meta charset="utf-8">
-    {% load bootstrap5 %}
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}     
-</head>
+    <head>    
+        <meta charset="utf-8">
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}     
+    </head>
 
-<style>
-    body 
-    {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-    }
-
-    header 
+    <style>
+        body 
         {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-
-    nav ul 
-        {
-            list-style: none;
-            padding: 0;
             margin: 0;
-            text-align: center;
-            background-color: #333;
+            padding: 0;
+            font-family: Arial, sans-serif;
         }
 
-    nav li 
-        {
-            display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
-            margin-right: 20px; /* Espacio entre los ítems del menú */
-        }
+        header 
+            {
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+            }
 
-    nav a 
-        {
-            text-decoration: none;
-            color: #fff;
-            font-size: 20px;
+        nav ul 
+            {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                text-align: center;
+                background-color: #333;
+            }
 
-        }
+        nav li 
+            {
+                display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+                margin-right: 20px; /* Espacio entre los ítems del menú */
+            }
 
-    nav a:hover 
-        {
-            text-decoration: underline;
-        }
+        nav a 
+            {
+                text-decoration: none;
+                color: #fff;
+                font-size: 20px;
 
-</style>
+            }
+
+        nav a:hover 
+            {
+                text-decoration: underline;
+            }
+
+    </style>
 
 
-<body>
-    <nav>
-        <ul>hola</ul>
-        <ul>
-            <li><a href="localhost:8000">Home</a></li>
-            <li><a href="https://norteamericano.cl">Blog</a></li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
-</body>
+    <body>
+        <nav>
+            <ul>hola</ul>
+            <ul>
+                <li><a href="localhost:8000">Home</a></li>
+                <li><a href="https://norteamericano.cl">Blog</a></li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </body>
 
 </html>
