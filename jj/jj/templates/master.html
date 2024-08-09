@@ -8,23 +8,18 @@
         {% bootstrap_css %}
         {% bootstrap_javascript %}        
         {% include "header.html" %}
-        <style>
 
-        </style>
-        <script>
-
-        </script>
     </head>
     <body>
                 
         {% block content %}
-        
+            {% include "index.html" %}
         {% endblock %}
         
     </body>
-    <footer class="footer">
-        <div>
-            {% include "footer.html" %}
-        </div>
+    <footer th:fragment="footer"class="bg-dark">
+        {% block footer %}
+        {% include "footer.html" %} 
+        {% endblock %}
     </footer>
 </html>
